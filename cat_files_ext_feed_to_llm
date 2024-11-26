@@ -1,4 +1,7 @@
-find . -name "*.groovy" -exec cat {} + | llm -m mistral-7b-instruct-v0 -s "You are tasked with analyzing a batch of Groovy files to identify common use cases and opportunities for improvement. This analysis will help in understanding patterns in code usage and potential areas for optimization or standardization.
+This CLI code leverages https://llm.datasette.io/en/stable/index.html to analyze files by extension
+
+
+```find . -name "*.groovy" -exec cat {} + | llm -m mistral-7b-instruct-v0 -s "You are tasked with analyzing a batch of Groovy files to identify common use cases and opportunities for improvement. This analysis will help in understanding patterns in code usage and potential areas for optimization or standardization.
 
 To complete this task, follow these steps:
 
@@ -67,7 +70,7 @@ To complete this task, follow these steps:
 
    <overall_assessment>
    Provide a brief overall assessment of the codebase, highlighting its strengths and areas that would benefit most from improvement.
-   </overall_assessment>
+   </overall_assessment>```
 
 5. Be thorough in your analysis, considering both high-level patterns and low-level implementation details. Strive to be objective, basing your assessment on established best practices and the provided analysis criteria.
 
