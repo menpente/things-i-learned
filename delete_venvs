@@ -1,0 +1,21 @@
+Deleting an existing virtual environment (venv) is straightforward. Here are the steps:
+
+1. **Deactivate the Virtual Environment**:
+   If the virtual environment is currently active, deactivate it first:
+   ```bash
+   deactivate
+   ```
+
+2. **Remove the Virtual Environment Directory**:
+   - On macOS/Linux:
+     ```bash
+     rm -rf path_to_your_venv
+     ```
+   - On Windows:
+     ```bash
+     rmdir /s /q path_to_your_venv
+     ```
+
+Replace `path_to_your_venv` with the actual path to your virtual environment directory.
+
+This will completely remove the virtual environment from your system.
