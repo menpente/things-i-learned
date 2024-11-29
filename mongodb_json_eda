@@ -1,0 +1,45 @@
+To conduct exploratory analysis on your MongoDB data using Studio 3T, follow these structured steps:
+
+## 1. **Connect to Your MongoDB Database**
+   - Launch Studio 3T and connect to your MongoDB instance where you imported the JSON files.
+
+## 2. **View Collections**
+   - Navigate to the **Collection Tab**. This is your starting point for exploring data. You can view the contents of your collections here, which will display the documents in a grid format[4].
+
+## 3. **Analyze Schema**
+   - Use the **Schema Explorer** feature to analyze the structure of your collections:
+     - Right-click on the collection name in the Connection Tree and select **Analyze Schema**.
+     - Configure the analysis by setting options like document sample size (e.g., 1000 documents) and query criteria if needed[1].
+     - Click on **Run Analysis** to generate insights into field distributions, missing fields, and incorrect field types.
+
+## 4. **Explore Data Distributions**
+   - After running the schema analysis, examine:
+     - **Schema Tree**: Displays all discovered fields and their types.
+     - **Charts Tab**: Shows visualizations such as histograms for numeric fields and top values for categorical fields[1].
+   - This helps identify patterns, outliers, and missing data.
+
+## 5. **Visual Query Builder**
+   - Use the **Visual Query Builder** to create queries without writing code. This tool allows you to filter, sort, and project specific fields from your data[4].
+   - You can also use the **Main Query Bar** to run custom queries directly in JSON format.
+
+## 6. **Statistics Overview**
+   - Right-click on your collection and select **Collection Statistics** to view overall stats like document count and size. This provides a quick overview of your dataset[4].
+
+## 7. **Documentation Generation**
+   - After completing your analysis, you can export the results by clicking on the **Generate Documentation** button, allowing you to save insights in formats like Word or CSV for future reference[1].
+
+## 8. **Further Analysis with Aggregation Framework**
+   - For more complex analyses, utilize MongoDB’s aggregation framework available in Studio 3T:
+     - Create aggregation pipelines using stages like `$group`, `$match`, and `$lookup` to manipulate and analyze your data further[5].
+
+By following these steps, you'll be able to effectively conduct exploratory analysis on your MongoDB collections using Studio 3T, uncovering valuable insights from your imported data.
+
+Citations:
+[1] https://studio3t.com/knowledge-base/articles/schema-explorer/
+[2] https://shopify.engineering/conducting-exploratory-data-analysis
+[3] https://pmc.ncbi.nlm.nih.gov/articles/PMC4779967/
+[4] https://studio3t.com/knowledge-base/articles/mongodb-collections-a-complete-guide-and-tutorial/
+[5] https://assets.czyt.tech/docs/3t_guide_to_aggregation.pdf
+[6] https://www.youtube.com/watch?v=MStG6gcqb3I
+[7] https://studio3t.com/research-program/
+[8] https://www.youtube.com/watch?v=KYG3-LgDl78
