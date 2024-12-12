@@ -1,0 +1,6 @@
+SELECT
+    main_column,  -- Other columns in your table
+    split_column
+FROM
+    your_table
+LATERAL EXPLODE(SPLIT(comma_separated_column, ',')) AS split_column;
