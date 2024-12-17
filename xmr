@@ -1,0 +1,17 @@
+# Using XmR Charts
+
+https://xmrit.com/articles/plot-xmr-chart-instructions/
+
+Routine variation vs exceptional variation
+
+1. If a point lies outside the limit lines (the blue lines), on either the X chart or the MR chart, something unusual is going on.
+2.  if you have a run of three out of four successive points that is closer to the limit lines (blue dotted lines) than the centre line (red dotted line), then this is a moderate source of exceptional variation.
+3.  if you have a run of three out of four successive points that is closer to the limit lines (blue dotted lines) than the centre line (red dotted line), then this is a moderate source of exceptional variation 
+
+Tricks:
+- First, signals can show up at smaller time scales that don’t show up at larger time scales. If you’re looking at weekly data, for instance, you may see signals that don’t show up in monthly data. 
+A general rule of thumb is to measure only as quickly as you think your process can change.
+
+- Second, signals are best when they’re recent.The weaker the signal, the more difficult it will be to find the root cause. This means that if something has happened too far in the past, you’re not going to learn why your process behaviour was affected! 
+
+What the XmR chart does is that it detects the presence of more than one probability distribution in the variation of a given time series.
