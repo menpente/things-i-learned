@@ -1,0 +1,54 @@
+Here is a comprehensive list of keyboard shortcuts for text editing on a Mac, organized by categories for easier reference:
+
+## Basic Text Editing Shortcuts
+- **Command (⌘) + C**: Copy the selected text.
+- **Command (⌘) + X**: Cut the selected text.
+- **Command (⌘) + V**: Paste the copied or cut text.
+- **Command (⌘) + A**: Select all text in the current document or text field.
+- **Command (⌘) + Z**: Undo the last action.
+- **Command (⌘) + Shift + Z**: Redo the last undone action.
+
+## Formatting Text
+- **Command (⌘) + B**: Bold the selected text.
+- **Command (⌘) + I**: Italicize the selected text.
+- **Command (⌘) + U**: Underline the selected text.
+- **Command (⌘) + K**: Create a hyperlink from the selected text.
+- **Option (⌥) + Command (⌘) + C**: Copy style (text formatting).
+- **Option (⌥) + Command (⌘) + V**: Paste style (apply copied formatting).
+
+## Text Navigation
+- **Arrow Keys**: Move the cursor one character at a time.
+- **Command (⌘) + Arrow Up/Down**: Move to the beginning/end of the document.
+- **Control (^) + Arrow Left/Right**: Move one word left/right.
+- **Control (^) + Arrow Up/Down**: Move one line up/down.
+
+## Text Selection
+- **Shift + Arrow Keys**: Select text one character or line at a time.
+- **Command (⌘) + Shift + Arrow Left/Right**: Select to the beginning/end of the current line.
+- **Option (⌥) + Shift + Arrow Left/Right**: Select to the beginning/end of the current word.
+
+## Deletion Shortcuts
+- **Option (⌥) + Delete**: Delete the word to the left of the insertion point.
+- **Control (^) + H**: Delete the character to the left of the insertion point.
+- **Control (^) + D**: Delete the character to the right of the insertion point.
+
+## Additional Shortcuts
+- **Control (^) + K**: Delete from the cursor to the end of the line or paragraph.
+- **Control (^) + O**: Insert a new line after the insertion point.
+- **Shift + Command (⌘) + Colon (: )**: Show Spelling and Grammar window.
+- **Command (⌘) + Semicolon (; )**: Find misspelled words in the document.
+
+## Specialized Functions
+- **Control (^) + L**: Center cursor or selection in visible area.
+- **Shift + Command (⌘) + P**: Open Page Setup dialog for document settings.
+- **Shift + Command (⌘) + S**: Show Save As dialog or duplicate current document.
+
+This list covers essential shortcuts that enhance productivity and efficiency while editing text on a Mac. For more specific applications, additional shortcuts may be available depending on software used, such as Microsoft Word or Visual Studio Code [1][2][3][4][5].
+
+Citations:
+[1] https://support.apple.com/en-us/102650
+[2] https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+[3] https://www.geeksforgeeks.org/10-mac-os-keyboard-shortcuts-that-you-should-know/
+[4] https://www.howtogeek.com/681662/35-mac-text-editing-keyboard-shortcuts-to-speed-up-typing/
+[5] https://support.apple.com/en-ie/102650
+[6] https://help.claris.com/archive/help/12/fmp/en/html/keys_mac.28.13.html
